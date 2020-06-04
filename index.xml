@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>King的博客</title>
-    <link>http://example.org/</link>
+    <link>https://king-open.github.io//</link>
     <description>Recent content on King的博客</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-Hans</language>
     <lastBuildDate>Thu, 04 Jun 2020 18:54:13 +0800</lastBuildDate>
     
-	<atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://king-open.github.io//index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Hugo搭建教程</title>
-      <link>http://example.org/posts/hugo%E6%90%AD%E5%BB%BA%E6%95%99%E7%A8%8B/</link>
+      <link>https://king-open.github.io//posts/hugo%E6%90%AD%E5%BB%BA%E6%95%99%E7%A8%8B/</link>
       <pubDate>Thu, 04 Jun 2020 18:54:13 +0800</pubDate>
       
-      <guid>http://example.org/posts/hugo%E6%90%AD%E5%BB%BA%E6%95%99%E7%A8%8B/</guid>
+      <guid>https://king-open.github.io//posts/hugo%E6%90%AD%E5%BB%BA%E6%95%99%E7%A8%8B/</guid>
       <description>大家好 带来一篇windows用户 hugo搭建教程
 hugo安装 windows用户64.zip或86.zip,并解压hugo.exe，放在自己的盘中 把D:xx/xxx/hugo加到PATH中，重启终端 运行hugo version 查看版本。
  进入hugo官网点击快速开始，从Step2开始~Step7一步步copy，得到一个public，这就是博客的站点 请使用hugo server预览
@@ -31,10 +31,10 @@ code config.toml /**用code打开**/ baseURL = &amp;quot;https://example.org/&am
     
     <item>
       <title>开博大吉</title>
-      <link>http://example.org/posts/%E5%BC%80%E5%8D%9A%E5%A4%A7%E5%90%89/</link>
+      <link>https://king-open.github.io//posts/%E5%BC%80%E5%8D%9A%E5%A4%A7%E5%90%89/</link>
       <pubDate>Thu, 04 Jun 2020 18:14:43 +0800</pubDate>
       
-      <guid>http://example.org/posts/%E5%BC%80%E5%8D%9A%E5%A4%A7%E5%90%89/</guid>
+      <guid>https://king-open.github.io//posts/%E5%BC%80%E5%8D%9A%E5%A4%A7%E5%90%89/</guid>
       <description>大家好 我的博客开通了，希望给大家写出好的文章给大家看</description>
     </item>
     
