@@ -35,7 +35,7 @@
 <meta property="og:description" content="" />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="http://example.org/posts/" />
-<meta property="og:updated_time" content="2020-06-04T18:14:43+08:00" />
+<meta property="og:updated_time" content="2020-06-04T18:54:13+08:00" />
 <meta itemprop="name" content="Posts">
 <meta itemprop="description" content=""><meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Posts"/>
@@ -96,6 +96,30 @@
   <article class="pa3 pa4-ns nested-copy-line-height nested-img">
     <section class="cf ph3 ph5-l pv3 pv4-l f4 tc-l center measure-wide lh-copy mid-gray"></section>
     <section class="flex-ns flex-wrap justify-around mt5">
+      
+        <div class="relative w-100 w-30-l mb4 bg-white"><div class="relative w-100 mb4 bg-white nested-copy-line-height">
+  <div class="bg-white mb3 pa4 gray overflow-hidden">
+    <span class="f6 db">Posts</span>
+    <h1 class="f3 near-black">
+      <a href="http://example.org/posts/hugo%E6%90%AD%E5%BB%BA%E6%95%99%E7%A8%8B/" class="link black dim">
+        Hugo搭建教程
+      </a>
+    </h1>
+    <div class="nested-links f5 lh-copy nested-copy-line-height">
+      大家好 带来一篇windows用户 hugo搭建教程
+hugo安装 windows用户64.zip或86.zip,并解压hugo.exe，放在自己的盘中 把D:xx/xxx/hugo加到PATH中，重启终端 运行hugo version 查看版本。
+ 进入hugo官网点击快速开始，从Step2开始~Step7一步步copy，得到一个public，这就是博客的站点 请使用hugo server预览
+ Step2:
+hugo new site quickstart (最后一个改成 自己的博客网址:xxx.github.io) Step3:
+cd xxx.github.io git init git submodule add https://github.com/budparr/gohugo-theme-ananke.git themes/ananke echo 'theme = &quot;ananke&quot;' &gt;&gt; config.toml Step4:
+创建第一篇博客
+hugo new posts/开博大吉.md draft: true 后面的true的意思是 草稿，改为false 其他不要改 Step5:
+ hugo server -D Step6:
+code config.toml /**用code打开**/ baseURL = &quot;https://example.org/&quot; /*不要改*/ languageCode = &quot;en-us&quot; /*改成 zh-Hans*/ title = &quot;My New Hugo Site&quot; /*改成 xxxx 博客*/ theme = &quot;ananke&quot; /*主题 不要改*/ Step7:
+    </div>
+  </div>
+</div>
+</div>
       
         <div class="relative w-100 w-30-l mb4 bg-white"><div class="relative w-100 mb4 bg-white nested-copy-line-height">
   <div class="bg-white mb3 pa4 gray overflow-hidden">
